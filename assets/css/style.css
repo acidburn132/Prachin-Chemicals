@@ -3130,7 +3130,7 @@ input[type=radio] {
 
 @media (min-width: 1200px) {
   .header-topbar {
-    display: block;
+    display: flex;
   }
   .navbar > .container-fluid,
 .header-topbar > .container-fluid {
