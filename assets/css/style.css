@@ -3992,7 +3992,7 @@ input[type=radio] {
   margin-bottom: 30px;
 }
 .footer .footer-widget-title {
-  color: #ffffff;
+  color: #848e9f;
   font-size: 16px;
   text-transform: capitalize;
   margin-bottom: 30px;
@@ -4053,14 +4053,14 @@ input[type=radio] {
   border-bottom-color: #3c3d73;
 }
 .footer .time-list li .day {
-  color: #ffffff;
+  color: #848e9f;
 }
 .footer .time-list li .time {
   color: #848e9f;
 }
 .footer .footer-widget-time {
   padding: 40px;
-  background-color: #0a0a32;
+  background-color: #ffff;
 }
 
 /* Scroll Top Button */
