@@ -6918,6 +6918,11 @@ input[type=radio] {
   display: flex;
   align-items: center;
 }
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+  .about-layout2 .about-text-banner {
+    display: none !important;
+  }
+}
 .about-layout2 .about-text-banner:before, .about-layout2 .about-text-banner:after {
   content: "";
   position: absolute;
@@ -6938,6 +6943,7 @@ input[type=radio] {
 }
 .about-layout2 .about-Text p {
   font-size: 16px;
+  padding-top: 15px;
 }
 .about-layout2 .author-img {
   display: flex;
