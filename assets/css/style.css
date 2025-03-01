@@ -1028,6 +1028,7 @@ h6 {
   display: flex;
   padding-bottom: 10px;
 }
+
 .pagetitle-subheading {
   color: #2e3192;
   font-size: 16px;
@@ -7233,6 +7234,7 @@ input[type=radio] {
 .services-layout5 .contact-phone,
 .services-layout6 .contact-phone {
   max-width: 290px;
+  padding-top: 15px;
 }
 .services-layout4 .contact-phone .phone-icon,
 .services-layout5 .contact-phone .phone-icon,
@@ -7968,3 +7970,13 @@ input[type=radio] {
     font-size: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .fancybox-layout4 .slick-dots {
+    position: static;
+  bottom: -149px;
+  text-align: right;
+  right: calc((145% - 870px) / 2);
+  padding-top: 15px;
+  }
+}
