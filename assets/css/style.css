@@ -5295,22 +5295,22 @@ input[type=radio] {
 
 .testimonials-layout3 .testimonials-container {
   position: relative;
-  padding-left: 115px;
+  padding-left: 15px;
 }
 .testimonials-layout3 .testimonials-container:before {
   content: "\e93e";
   font-family: "icomoon";
   position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 45px;
+  top: -13px;
+  left: -14px;
+  font-size: 25px;
   color: #c41a1b;
 }
 .testimonials-layout3 .testimonial-title {
   font-size: 24px;
 }
 .testimonials-layout3 .slider-nav-thumbnails {
-  padding-left: 115px;
+  padding-left: 0px;
 }
 .testimonials-layout3 .testimonial-thmb {
   position: relative;
@@ -5337,10 +5337,12 @@ input[type=radio] {
 }
 .testimonials-layout3 .slick-arrow:before {
   background-color: #2e3192;
+  display: none;
 }
 .testimonials-layout3 .slick-arrow.slick-next {
   right: auto;
   left: 40px;
+  display: none;
 }
 .testimonials-layout3 .slick-arrow:hover:before {
   color: #ffffff;
