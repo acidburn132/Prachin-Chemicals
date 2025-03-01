@@ -1512,7 +1512,7 @@ h6 {
   .btn:not(.btn-link) {
     font-size: 13px;
     min-width: 120px;
-    height: 55px;
+    height: 40px;
   }
   .btn-icon {
     padding: 0 10px;
@@ -2171,12 +2171,14 @@ input[type=radio] {
 }
 .slick-arrow.slick-next:before {
   content: "\e907";
+  display: none;
 }
 .slick-arrow.slick-prev {
   left: 0;
 }
 .slick-arrow.slick-prev:before {
   content: "\e905";
+  display: none;
 }
 
 .slick-dots {
@@ -4369,7 +4371,7 @@ input[type=radio] {
   padding: 0;
 }
 .slider .slide-item {
-  min-height: 550px;
+  min-height: 535px;
   height: calc(100vh - 160px);
 }
 .slider .slide-subtitle {
@@ -4419,7 +4421,7 @@ input[type=radio] {
 }
 .slider .slick-dots {
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   text-align: center;
   width: 100%;
 }
@@ -4577,7 +4579,7 @@ input[type=radio] {
 /* Extra Small Devices */
 @media (min-width: 320px) and (max-width: 575px) {
   .slider .slide-title {
-    font-size: 27px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   .slider .btn {
@@ -4590,6 +4592,9 @@ input[type=radio] {
     padding: 30px 10px;
   }
 }
+
+
+
 /*--------------------------
       Video
 --------------------------*/
@@ -6855,7 +6860,7 @@ input[type=radio] {
   position: relative;
 }
 .about-img img {
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .about-badge {
