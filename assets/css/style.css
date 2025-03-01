@@ -1024,7 +1024,10 @@ h6 {
 .header-transparent + .page-title {
   margin-top: -135px;
 }
-
+.values {
+  display: flex;
+  padding-bottom: 10px;
+}
 .pagetitle-subheading {
   color: #2e3192;
   font-size: 16px;
@@ -5306,6 +5309,7 @@ input[type=radio] {
   font-size: 25px;
   color: #c41a1b;
 }
+
 .testimonials-layout3 .testimonial-title {
   font-size: 24px;
 }
