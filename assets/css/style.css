@@ -6848,7 +6848,7 @@ input[type=radio] {
   position: relative;
 }
 .about-img img {
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .about-badge {
@@ -6944,6 +6944,11 @@ input[type=radio] {
 .about-layout2 .about-Text p {
   font-size: 16px;
   padding-top: 15px;
+}
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+  .about-layout2 .about-img {
+    padding: 0;
+  }
 }
 .about-layout2 .author-img {
   display: flex;
