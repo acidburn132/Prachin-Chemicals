@@ -7973,10 +7973,15 @@ input[type=radio] {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .fancybox-layout4 .slick-dots {
-    position: static;
+    position: absolute;
   bottom: -149px;
   text-align: right;
-  right: calc((145% - 870px) / 2);
+  right: calc((142% - 870px) / 2);
   padding-top: 15px;
   }
+} 
+@media (min-width:320px) and (max-width:767px){
+   .fancybox-layout5 .fancybox-container {
+    display: none;
+}
 }
