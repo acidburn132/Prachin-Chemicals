@@ -1385,7 +1385,7 @@
                   </div>
                   <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="form-group">
-                      <label for="service">Select Industries</label>
+                      <label for="service" id="name" required>Select Industries (required)</label>
                       <select id="service" class="form-control" >
                         <option value="1">Pharmaceutical</option>
                         <option value="2">Nutraceutical</option>
@@ -1422,17 +1422,26 @@
                   </div><!-- /.col-lg-4 -->
                   <div class="col-sm-4 col-md-4 col-lg-4">
                     <div class="form-group form-group-date">
-                      <label for="date">Date (required)</label>
-                      <input type="date" class="form-control" id="date" required>
+                      <label for="date" >Specific Product</label>
+                      <select type="date" class="Specific" id="date" required>
+                        <option value="1">Croscarmellose Sodium</option>
+                        <option value="2">Carboxymethyl Cellulose Calcium</option>
+                        <option value="3">Magnesium Stearate</option>
+                        <option value="4">Sodium Stearyl Fumarate</option>
+                        <option value="5">Microcrystalline Cellulose</option>
+                        <option value="6">Crospovidone</option>
+                        <option value="7">Dibasic Calcium Phosphate</option>
+                        <option value="8">Sodium Carboxymethyl Cellulose</option>
+                        <option value="9">Calcium Carbonate</option>
+                        <option value="10">Povidone</option>
+                        <option value="11">Calcium Citrate</option>
+                        <option value="12">Calcium Citrate Maleate</option>
+                        <option value="13">Magnesium Citrate</option> 
+                      </select>
                     </div>
                   </div><!-- /.col-lg-4 -->
-                  <div class="col-sm-4 col-md-4 col-lg-4">
-                    <div class="form-group form-group-date">
-                      <label for="time">Time (required)</label>
-                      <input type="time" class="form-control" id="time" required>
-                    </div>
-                  </div><!-- /.col-lg-4 -->
-                  <div class="col-12">
+                  
+                  <!-- <div class="col-12">
                     <div class="form-group">
                       <label class="mb-20">Specific Product</label>
                       <div class="d-flex flex-wrap checkbox-controls">
@@ -1525,7 +1534,7 @@
                           <label class="custom-control-label" for="customCheck27">Xanthan Gum</label>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <button type="submit" class="btn btn-secondary btn-block btn-xhight">
                       <span>Book Your Visit</span> <i class="icon-arrow-right"></i>
                     </button>

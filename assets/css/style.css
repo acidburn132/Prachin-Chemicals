@@ -1709,6 +1709,20 @@ input[type=radio] {
   border-radius: 2px;
   margin-bottom: 30px;
 }
+@media (min-width: 1024px) { 
+  .Specific {   
+      width: auto;   
+      height: 60px;   
+      line-height: 60px;   
+      border-radius: 2px;   
+      margin-bottom: 30px;
+      background-color: #ffffff;
+    border: 2px solid #e6e8eb;
+  }  
+}
+.nice-select .list {
+  width: 100%;
+}
 .nice-select .list {
   width: 100%;
 }
@@ -4014,7 +4028,7 @@ a.navbar-brand {
   line-height: 2;
 }
 .footer .contact-list li a {
-  color: #c41a1b;
+  color: #ffffff;
   display: flex;
   align-items: center;
 }
@@ -7252,7 +7266,7 @@ a.navbar-brand {
   align-items: center;
   width: 68px;
   height: 68px;
-  flex: 0 0 50px;
+  flex: 0 0 68px;
   border-radius: 50%;
   box-shadow: 0 0 0 2px #dfdfea inset;
 }
