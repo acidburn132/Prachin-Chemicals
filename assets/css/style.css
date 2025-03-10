@@ -2586,8 +2586,11 @@ input[type=radio] {
 }
 .header-topbar .contact-list li > i {
   font-size: 16px;
-  color: #c41a1b;
+  color: #ffffff;
   margin-right: 8px;
+}
+a.navbar-brand {
+  max-width: 150px;
 }
 .header-topbar .contact-list li:last-child {
   margin-right: 0;
