@@ -7239,7 +7239,7 @@ input[type=radio] {
 .services-layout5 .contact-phone,
 .services-layout6 .contact-phone {
   max-width: 290px;
-  padding-top: 15px;
+  
 }
 .services-layout4 .contact-phone .phone-icon,
 .services-layout5 .contact-phone .phone-icon,
@@ -7249,7 +7249,7 @@ input[type=radio] {
   align-items: center;
   width: 68px;
   height: 68px;
-  flex: 0 0 68px;
+  flex: 0 0 50px;
   border-radius: 50%;
   box-shadow: 0 0 0 2px #dfdfea inset;
 }
